@@ -1,0 +1,222 @@
+[
+  {
+    "path": "APPLY-v1.1.1.md",
+    "size": 234
+  },
+  {
+    "path": "CHANGELOG.md",
+    "size": 1243
+  },
+  {
+    "path": "LICENSE",
+    "size": 47
+  },
+  {
+    "path": "PRODUCT_IDENTITY.json",
+    "size": 260
+  },
+  {
+    "path": "README.md",
+    "size": 580
+  },
+  {
+    "path": "RELEASE_NOTES_v1.1.1.md",
+    "size": 557
+  },
+  {
+    "path": "RELEASE_NOTES_v1.1.2.md",
+    "size": 538
+  },
+  {
+    "path": "SHARED_VERSION",
+    "size": 6
+  },
+  {
+    "path": "VERSION",
+    "size": 6
+  },
+  {
+    "path": "contracts/common-envelope-v1.schema.json",
+    "size": 1748
+  },
+  {
+    "path": "contracts/merge-plan-v1.schema.json",
+    "size": 750
+  },
+  {
+    "path": "contracts/merge-treatment-request-v1.schema.json",
+    "size": 2306
+  },
+  {
+    "path": "contracts/merge-treatment-result-v1.schema.json",
+    "size": 2246
+  },
+  {
+    "path": "contracts/platform-error-v1.schema.json",
+    "size": 2080
+  },
+  {
+    "path": "docs/MERGE_WORKFLOW.md",
+    "size": 1043
+  },
+  {
+    "path": "docs/PRIMARY_ARTICLE_SELECTION.md",
+    "size": 306
+  },
+  {
+    "path": "docs/PRODUCT_SPECIFICATION.md",
+    "size": 1619
+  },
+  {
+    "path": "docs/REDIRECT_NOINDEX_DELETE_POLICY.md",
+    "size": 258
+  },
+  {
+    "path": "docs/VALIDATION_RULES.md",
+    "size": 288
+  },
+  {
+    "path": "knowledge/CANNIBALIZATION_RULES.md",
+    "size": 257
+  },
+  {
+    "path": "knowledge/MERGE_WRITING_RULES.md",
+    "size": 3216
+  },
+  {
+    "path": "knowledge/PRESERVATION_RULES.md",
+    "size": 170
+  },
+  {
+    "path": "knowledge/QUERY_MAPPING_RULES.md",
+    "size": 99
+  },
+  {
+    "path": "knowledge/ROLLBACK_RULES.md",
+    "size": 142
+  },
+  {
+    "path": "runtime/MERGE_RUNTIME.md",
+    "size": 2315
+  },
+  {
+    "path": "runtime/OUTPUT_PROTOCOL.md",
+    "size": 2682
+  },
+  {
+    "path": "shared/SNAPSHOT_MANIFEST.json",
+    "size": 652
+  },
+  {
+    "path": "shared/contracts/common/common-envelope-v1.schema.json",
+    "size": 1748
+  },
+  {
+    "path": "shared/contracts/merge/merge-plan-v1.schema.json",
+    "size": 750
+  },
+  {
+    "path": "shared/contracts/merge/merge-treatment-request-v1.schema.json",
+    "size": 2306
+  },
+  {
+    "path": "shared/contracts/merge/merge-treatment-result-v1.schema.json",
+    "size": 2246
+  },
+  {
+    "path": "shared/contracts/platform/platform-error-v1.schema.json",
+    "size": 2080
+  },
+  {
+    "path": "shared/enums/priority.json",
+    "size": 131
+  },
+  {
+    "path": "shared/enums/result-status.json",
+    "size": 243
+  },
+  {
+    "path": "shared/enums/treatment-type.json",
+    "size": 599
+  },
+  {
+    "path": "src/__init__.py",
+    "size": 57
+  },
+  {
+    "path": "src/merge_engine.py",
+    "size": 10485
+  },
+  {
+    "path": "tests/fixtures/M001-confirmed-merge.json",
+    "size": 75
+  },
+  {
+    "path": "tests/fixtures/M002-keep-both.json",
+    "size": 64
+  },
+  {
+    "path": "tests/fixtures/M003-role-separation.json",
+    "size": 85
+  },
+  {
+    "path": "tests/fixtures/M004-old-new.json",
+    "size": 67
+  },
+  {
+    "path": "tests/fixtures/M005-low-evidence.json",
+    "size": 79
+  },
+  {
+    "path": "tests/fixtures/M006-revenue.json",
+    "size": 75
+  },
+  {
+    "path": "tests/fixtures/M007-experience-preservation.json",
+    "size": 90
+  },
+  {
+    "path": "tests/fixtures/M008-backlink-redirect.json",
+    "size": 80
+  },
+  {
+    "path": "tests/fixtures/M009-creator-referral.json",
+    "size": 78
+  },
+  {
+    "path": "tests/fixtures/M010-merge-writing.json",
+    "size": 97
+  },
+  {
+    "path": "tests/fixtures/M010-writer-referral.json",
+    "size": 76
+  },
+  {
+    "path": "tests/fixtures/M011-rollback.json",
+    "size": 71
+  },
+  {
+    "path": "tests/fixtures/M012-id-integrity.json",
+    "size": 70
+  },
+  {
+    "path": "tests/fixtures/M013-merged-article.json",
+    "size": 92
+  },
+  {
+    "path": "tests/test_merge_engine.py",
+    "size": 4775
+  },
+  {
+    "path": "validation/MERGE_VALIDATION.md",
+    "size": 601
+  },
+  {
+    "path": "validation/RC3_PUBLICATION_QUALITY_ACCEPTANCE.md",
+    "size": 571
+  },
+  {
+    "path": "validation/SAFETY_VALIDATION.md",
+    "size": 134
+  }
+]
