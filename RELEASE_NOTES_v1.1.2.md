@@ -8,3 +8,9 @@
 - User-facing central manager references use **SIMS Manager**.
 - Internal contracts, repository identifiers, schema names, Case IDs, machine-facing product codes, and Shared baseline remain unchanged.
 - This is a naming/UI-only PATCH release; merge behavior is unchanged.
+
+## Package canonicalization
+
+- Active package metadata and current README are synchronized to **v1.1.2**.
+- Historical release notes and APPLY documents are preserved as historical records.
+- Shared baseline remains **3.3.0**; no merge behavior or contract schema is changed.
