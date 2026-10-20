@@ -1,0 +1,140 @@
+{
+  "01_MERGE_RUNTIME.md": [
+    {
+      "source": "runtime/MERGE_RUNTIME.md",
+      "sha256": "bc91f93ed308eb4f3a9518a3a10cdef9b16d2542dccd8fae4fbb0077e6838eb0"
+    },
+    {
+      "source": "runtime/OUTPUT_PROTOCOL.md",
+      "sha256": "63ca2f530f7d54919c01eced6a6b967f1a6179b65a039d3e6fa2ed9cbdadb5e3"
+    }
+  ],
+  "02_MERGE_CONTRACTS.md": [
+    {
+      "source": "contracts/common-envelope-v1.schema.json",
+      "sha256": "def4071afcad34f1970c447f2c7716bb9b2bd264771c32ed0b34b2a6a067a659"
+    },
+    {
+      "source": "contracts/merge-plan-v1.schema.json",
+      "sha256": "4bcb5401c6af122a2e3114c1826c83dc53841c38c86e292c0bad00f5d765e1e5"
+    },
+    {
+      "source": "contracts/merge-treatment-request-v1.schema.json",
+      "sha256": "f3b46a3e430b7658d693f0a9168189a0951fbc2d020077e46660a0485902b1e4"
+    },
+    {
+      "source": "contracts/merge-treatment-result-v1.schema.json",
+      "sha256": "9d3eaef31efcf6419252c2c8f0b42333704d1a6dc90668234424431d521b68fd"
+    },
+    {
+      "source": "contracts/platform-error-v1.schema.json",
+      "sha256": "e13cdc0b9a4f5795cd81a05c085ff498b2beed5033ee3bdd5db643d7f321a914"
+    }
+  ],
+  "03_MERGE_KNOWLEDGE.md": [
+    {
+      "source": "knowledge/CANNIBALIZATION_RULES.md",
+      "sha256": "9644f2c121600f27a6634a1676a3ca7729d1cefbc94c7e05748e5cb61d1d6a76"
+    },
+    {
+      "source": "knowledge/MERGE_WRITING_RULES.md",
+      "sha256": "828d27095dbacf7a669a8439305e93d2531812ce9521fbae19235cfe3c1acaf8"
+    },
+    {
+      "source": "knowledge/PRESERVATION_RULES.md",
+      "sha256": "e8bb4a97584c875c28a6fcff06374711bb5267bf54318ab03280e0228b9f5b0c"
+    },
+    {
+      "source": "knowledge/QUERY_MAPPING_RULES.md",
+      "sha256": "0ae2916348cd820ee254f0cb26c65bedff7a972d0ca0d2d836bf10fed1459add"
+    },
+    {
+      "source": "knowledge/ROLLBACK_RULES.md",
+      "sha256": "f83bc47229abcdc7c64ac788b0e76db1c72f041081efe173f31664f5676cb0a4"
+    }
+  ],
+  "04_MERGE_SHARED.md": [
+    {
+      "source": "shared/SNAPSHOT_MANIFEST.json",
+      "sha256": "7516aaf36de31fc7ffe9b9f1ad7e0753678935707f490ebb124012394bdab64b"
+    },
+    {
+      "source": "shared/contracts/common/common-envelope-v1.schema.json",
+      "sha256": "def4071afcad34f1970c447f2c7716bb9b2bd264771c32ed0b34b2a6a067a659"
+    },
+    {
+      "source": "shared/contracts/merge/merge-plan-v1.schema.json",
+      "sha256": "4bcb5401c6af122a2e3114c1826c83dc53841c38c86e292c0bad00f5d765e1e5"
+    },
+    {
+      "source": "shared/contracts/merge/merge-treatment-request-v1.schema.json",
+      "sha256": "f3b46a3e430b7658d693f0a9168189a0951fbc2d020077e46660a0485902b1e4"
+    },
+    {
+      "source": "shared/contracts/merge/merge-treatment-result-v1.schema.json",
+      "sha256": "9d3eaef31efcf6419252c2c8f0b42333704d1a6dc90668234424431d521b68fd"
+    },
+    {
+      "source": "shared/contracts/platform/platform-error-v1.schema.json",
+      "sha256": "e13cdc0b9a4f5795cd81a05c085ff498b2beed5033ee3bdd5db643d7f321a914"
+    },
+    {
+      "source": "shared/enums/priority.json",
+      "sha256": "eda5e8639d6c63e8eae3ef379cd89c33529f3c6d605a311ef720fe55c6214afd"
+    },
+    {
+      "source": "shared/enums/result-status.json",
+      "sha256": "74c5853d37f29753eaca7711b2f740aea58153701906c66eb12ec856bd2f6c2f"
+    },
+    {
+      "source": "shared/enums/treatment-type.json",
+      "sha256": "14367112b8fd31b67b478a87ecbbbafe9e4681d39379a11205449d8554b22be6"
+    }
+  ],
+  "05_MERGE_WORKFLOW.md": [
+    {
+      "source": "docs/MERGE_WORKFLOW.md",
+      "sha256": "9dcddd5dee47e162ce433b3ab866d3b557ef3965f41d9bc087df15d0e277c520"
+    },
+    {
+      "source": "docs/PRIMARY_ARTICLE_SELECTION.md",
+      "sha256": "a3787ae3d598c57bfe03986c34072950a4835b49386d54144757f8df5c402b46"
+    },
+    {
+      "source": "docs/PRODUCT_SPECIFICATION.md",
+      "sha256": "28c6a7a8dd67db4e7b1fc1aa53b75284b466c8d04c552090743020ddc2222875"
+    },
+    {
+      "source": "docs/REDIRECT_NOINDEX_DELETE_POLICY.md",
+      "sha256": "3c9577399a2c7dadde1d10f6a9c45a0626358bc050b4bc904a12e65a948b67f3"
+    },
+    {
+      "source": "docs/VALIDATION_RULES.md",
+      "sha256": "f7f1646b1b88a8ecc3e49f59433ee83a34b48357fec45d444b589df85ebb94d7"
+    }
+  ],
+  "06_MERGE_VALIDATION.md": [
+    {
+      "source": "validation/MERGE_VALIDATION.md",
+      "sha256": "47081201f989db902bee7660eb2b04fc2b818fd38eca1d80896809b39acb7474"
+    },
+    {
+      "source": "validation/RC3_PUBLICATION_QUALITY_ACCEPTANCE.md",
+      "sha256": "f5fcb8dc0effa1a9406c0e4fbd05d37d5a6e724f0d8c0708384df8a70fd72cae"
+    },
+    {
+      "source": "validation/SAFETY_VALIDATION.md",
+      "sha256": "ae3f48604d8744cc943f973c44dd56fa6dcc1ee3ee81093b83b3e873cefcb559"
+    }
+  ],
+  "07_MERGE_REFERENCE.md": [
+    {
+      "source": "PRODUCT_IDENTITY.json",
+      "sha256": "cffa57a171bb55e572dbeda44c54b6badb1735e8c54b5bb0bd36986f00ec635c"
+    },
+    {
+      "source": "README.md",
+      "sha256": "eb8a3f5ce603247205ab8bc3f37426b2dd9eac63631441a90de3e6a8a5d1f923"
+    }
+  ]
+}

@@ -1,222 +1,301 @@
-[
-  {
-    "path": "APPLY-v1.1.1.md",
-    "size": 234
-  },
-  {
-    "path": "CHANGELOG.md",
-    "size": 1243
-  },
-  {
-    "path": "LICENSE",
-    "size": 47
-  },
-  {
-    "path": "PRODUCT_IDENTITY.json",
-    "size": 260
-  },
-  {
-    "path": "README.md",
-    "size": 618
-  },
-  {
-    "path": "RELEASE_NOTES_v1.1.1.md",
-    "size": 557
-  },
-  {
-    "path": "RELEASE_NOTES_v1.1.2.md",
-    "size": 815
-  },
-  {
-    "path": "SHARED_VERSION",
-    "size": 6
-  },
-  {
-    "path": "VERSION",
-    "size": 6
-  },
-  {
-    "path": "contracts/common-envelope-v1.schema.json",
-    "size": 1748
-  },
-  {
-    "path": "contracts/merge-plan-v1.schema.json",
-    "size": 750
-  },
-  {
-    "path": "contracts/merge-treatment-request-v1.schema.json",
-    "size": 2306
-  },
-  {
-    "path": "contracts/merge-treatment-result-v1.schema.json",
-    "size": 2246
-  },
-  {
-    "path": "contracts/platform-error-v1.schema.json",
-    "size": 2080
-  },
-  {
-    "path": "docs/MERGE_WORKFLOW.md",
-    "size": 1043
-  },
-  {
-    "path": "docs/PRIMARY_ARTICLE_SELECTION.md",
-    "size": 306
-  },
-  {
-    "path": "docs/PRODUCT_SPECIFICATION.md",
-    "size": 1619
-  },
-  {
-    "path": "docs/REDIRECT_NOINDEX_DELETE_POLICY.md",
-    "size": 258
-  },
-  {
-    "path": "docs/VALIDATION_RULES.md",
-    "size": 288
-  },
-  {
-    "path": "knowledge/CANNIBALIZATION_RULES.md",
-    "size": 257
-  },
-  {
-    "path": "knowledge/MERGE_WRITING_RULES.md",
-    "size": 3216
-  },
-  {
-    "path": "knowledge/PRESERVATION_RULES.md",
-    "size": 170
-  },
-  {
-    "path": "knowledge/QUERY_MAPPING_RULES.md",
-    "size": 99
-  },
-  {
-    "path": "knowledge/ROLLBACK_RULES.md",
-    "size": 142
-  },
-  {
-    "path": "runtime/MERGE_RUNTIME.md",
-    "size": 2315
-  },
-  {
-    "path": "runtime/OUTPUT_PROTOCOL.md",
-    "size": 2682
-  },
-  {
-    "path": "shared/SNAPSHOT_MANIFEST.json",
-    "size": 652
-  },
-  {
-    "path": "shared/contracts/common/common-envelope-v1.schema.json",
-    "size": 1748
-  },
-  {
-    "path": "shared/contracts/merge/merge-plan-v1.schema.json",
-    "size": 750
-  },
-  {
-    "path": "shared/contracts/merge/merge-treatment-request-v1.schema.json",
-    "size": 2306
-  },
-  {
-    "path": "shared/contracts/merge/merge-treatment-result-v1.schema.json",
-    "size": 2246
-  },
-  {
-    "path": "shared/contracts/platform/platform-error-v1.schema.json",
-    "size": 2080
-  },
-  {
-    "path": "shared/enums/priority.json",
-    "size": 131
-  },
-  {
-    "path": "shared/enums/result-status.json",
-    "size": 243
-  },
-  {
-    "path": "shared/enums/treatment-type.json",
-    "size": 599
-  },
-  {
-    "path": "src/__init__.py",
-    "size": 57
-  },
-  {
-    "path": "src/merge_engine.py",
-    "size": 10485
-  },
-  {
-    "path": "tests/fixtures/M001-confirmed-merge.json",
-    "size": 75
-  },
-  {
-    "path": "tests/fixtures/M002-keep-both.json",
-    "size": 64
-  },
-  {
-    "path": "tests/fixtures/M003-role-separation.json",
-    "size": 85
-  },
-  {
-    "path": "tests/fixtures/M004-old-new.json",
-    "size": 67
-  },
-  {
-    "path": "tests/fixtures/M005-low-evidence.json",
-    "size": 79
-  },
-  {
-    "path": "tests/fixtures/M006-revenue.json",
-    "size": 75
-  },
-  {
-    "path": "tests/fixtures/M007-experience-preservation.json",
-    "size": 90
-  },
-  {
-    "path": "tests/fixtures/M008-backlink-redirect.json",
-    "size": 80
-  },
-  {
-    "path": "tests/fixtures/M009-creator-referral.json",
-    "size": 78
-  },
-  {
-    "path": "tests/fixtures/M010-merge-writing.json",
-    "size": 97
-  },
-  {
-    "path": "tests/fixtures/M010-writer-referral.json",
-    "size": 76
-  },
-  {
-    "path": "tests/fixtures/M011-rollback.json",
-    "size": 71
-  },
-  {
-    "path": "tests/fixtures/M012-id-integrity.json",
-    "size": 70
-  },
-  {
-    "path": "tests/fixtures/M013-merged-article.json",
-    "size": 92
-  },
-  {
-    "path": "tests/test_merge_engine.py",
-    "size": 4775
-  },
-  {
-    "path": "validation/MERGE_VALIDATION.md",
-    "size": 601
-  },
-  {
-    "path": "validation/RC3_PUBLICATION_QUALITY_ACCEPTANCE.md",
-    "size": 571
-  },
-  {
-    "path": "validation/SAFETY_VALIDATION.md",
-    "size": 134
-  }
-]
+{
+  "version": "2.0.0",
+  "product": "aMerge",
+  "files": [
+    {
+      "path": "APPLY-v1.1.1.md",
+      "sha256": "8262ee7a8e9962502b405e8de250a1d33d97c1f68ae107472e05c727c6ee8245",
+      "size": 234
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "f82e5023cc0fc77bd2625276a5d04d0f1216a3f0b850a69a9b1cee1902cb8fc8",
+      "size": 1243
+    },
+    {
+      "path": "CLAUDE_DEPLOYMENT_README_v2.0.0.md",
+      "sha256": "ebef42d98c138676a7c9b4b4b5df5f8a8c0fedc3f0816da1b4811a0eaafd6f6a",
+      "size": 875
+    },
+    {
+      "path": "COMMIT_MESSAGE.txt",
+      "sha256": "d2c9d7e026b50404effc34345cc3fe8996bbe188f127221e817e9cf6d8c112c8",
+      "size": 79
+    },
+    {
+      "path": "DEPLOYMENT_SOURCE_MAP_v2.0.0.json",
+      "sha256": "239edfbd24df6e9f62920bc3c714701aabe96b74f5f72bad1ba0ffa8b634335d",
+      "size": 4921
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "5e6f0abef9525a70f54ac11000639350ad6e505e7834df6e9075b626260c6743",
+      "size": 47
+    },
+    {
+      "path": "PRODUCT_IDENTITY.json",
+      "sha256": "6c017387e1b90032833ee440ef97653c56266114573f296e19e3861f3661fe9b",
+      "size": 432
+    },
+    {
+      "path": "README.md",
+      "sha256": "1ca4ceb75ef60eec98b7e3e980e1e35700fffa7dd0be695c50f261ba841e6386",
+      "size": 618
+    },
+    {
+      "path": "RELEASE_NOTES_v1.1.1.md",
+      "sha256": "765c31988865130b2147558bcf0d778e5402f02130e8f77e6eae4ff782f4d9df",
+      "size": 557
+    },
+    {
+      "path": "RELEASE_NOTES_v1.1.2.md",
+      "sha256": "ec723a37aa47e4b06910f716ee35e3307c2d02cb04ff25938e7e6fb28e528a45",
+      "size": 815
+    },
+    {
+      "path": "RELEASE_NOTES_v2.0.0.md",
+      "sha256": "4e88c9bb3a5b5cd03cdf7e46a8e805258bbb615f7f3df1728c0243e965b6892f",
+      "size": 373
+    },
+    {
+      "path": "SHARED_VERSION",
+      "sha256": "5eee6c0c5c6901f5e523f0a434bca4106e1ff7136deb451f982b0bb1a7b13716",
+      "size": 6
+    },
+    {
+      "path": "VERSION",
+      "sha256": "c28fcca53637bc88e124af1725df13cb98c69dedefd62fb3cdbe1cdb6b760624",
+      "size": 6
+    },
+    {
+      "path": "contracts/common-envelope-v1.schema.json",
+      "sha256": "def4071afcad34f1970c447f2c7716bb9b2bd264771c32ed0b34b2a6a067a659",
+      "size": 1748
+    },
+    {
+      "path": "contracts/merge-plan-v1.schema.json",
+      "sha256": "4bcb5401c6af122a2e3114c1826c83dc53841c38c86e292c0bad00f5d765e1e5",
+      "size": 750
+    },
+    {
+      "path": "contracts/merge-treatment-request-v1.schema.json",
+      "sha256": "f3b46a3e430b7658d693f0a9168189a0951fbc2d020077e46660a0485902b1e4",
+      "size": 2306
+    },
+    {
+      "path": "contracts/merge-treatment-result-v1.schema.json",
+      "sha256": "9d3eaef31efcf6419252c2c8f0b42333704d1a6dc90668234424431d521b68fd",
+      "size": 2246
+    },
+    {
+      "path": "contracts/platform-error-v1.schema.json",
+      "sha256": "e13cdc0b9a4f5795cd81a05c085ff498b2beed5033ee3bdd5db643d7f321a914",
+      "size": 2080
+    },
+    {
+      "path": "docs/MERGE_WORKFLOW.md",
+      "sha256": "9dcddd5dee47e162ce433b3ab866d3b557ef3965f41d9bc087df15d0e277c520",
+      "size": 1043
+    },
+    {
+      "path": "docs/PRIMARY_ARTICLE_SELECTION.md",
+      "sha256": "a3787ae3d598c57bfe03986c34072950a4835b49386d54144757f8df5c402b46",
+      "size": 306
+    },
+    {
+      "path": "docs/PRODUCT_SPECIFICATION.md",
+      "sha256": "28c6a7a8dd67db4e7b1fc1aa53b75284b466c8d04c552090743020ddc2222875",
+      "size": 1619
+    },
+    {
+      "path": "docs/REDIRECT_NOINDEX_DELETE_POLICY.md",
+      "sha256": "3c9577399a2c7dadde1d10f6a9c45a0626358bc050b4bc904a12e65a948b67f3",
+      "size": 258
+    },
+    {
+      "path": "docs/VALIDATION_RULES.md",
+      "sha256": "f7f1646b1b88a8ecc3e49f59433ee83a34b48357fec45d444b589df85ebb94d7",
+      "size": 288
+    },
+    {
+      "path": "knowledge/CANNIBALIZATION_RULES.md",
+      "sha256": "9644f2c121600f27a6634a1676a3ca7729d1cefbc94c7e05748e5cb61d1d6a76",
+      "size": 257
+    },
+    {
+      "path": "knowledge/MERGE_WRITING_RULES.md",
+      "sha256": "828d27095dbacf7a669a8439305e93d2531812ce9521fbae19235cfe3c1acaf8",
+      "size": 3216
+    },
+    {
+      "path": "knowledge/PRESERVATION_RULES.md",
+      "sha256": "e8bb4a97584c875c28a6fcff06374711bb5267bf54318ab03280e0228b9f5b0c",
+      "size": 170
+    },
+    {
+      "path": "knowledge/QUERY_MAPPING_RULES.md",
+      "sha256": "0ae2916348cd820ee254f0cb26c65bedff7a972d0ca0d2d836bf10fed1459add",
+      "size": 99
+    },
+    {
+      "path": "knowledge/ROLLBACK_RULES.md",
+      "sha256": "f83bc47229abcdc7c64ac788b0e76db1c72f041081efe173f31664f5676cb0a4",
+      "size": 142
+    },
+    {
+      "path": "runtime/MERGE_RUNTIME.md",
+      "sha256": "bc91f93ed308eb4f3a9518a3a10cdef9b16d2542dccd8fae4fbb0077e6838eb0",
+      "size": 2315
+    },
+    {
+      "path": "runtime/OUTPUT_PROTOCOL.md",
+      "sha256": "63ca2f530f7d54919c01eced6a6b967f1a6179b65a039d3e6fa2ed9cbdadb5e3",
+      "size": 2682
+    },
+    {
+      "path": "shared/SNAPSHOT_MANIFEST.json",
+      "sha256": "7516aaf36de31fc7ffe9b9f1ad7e0753678935707f490ebb124012394bdab64b",
+      "size": 652
+    },
+    {
+      "path": "shared/contracts/common/common-envelope-v1.schema.json",
+      "sha256": "def4071afcad34f1970c447f2c7716bb9b2bd264771c32ed0b34b2a6a067a659",
+      "size": 1748
+    },
+    {
+      "path": "shared/contracts/merge/merge-plan-v1.schema.json",
+      "sha256": "4bcb5401c6af122a2e3114c1826c83dc53841c38c86e292c0bad00f5d765e1e5",
+      "size": 750
+    },
+    {
+      "path": "shared/contracts/merge/merge-treatment-request-v1.schema.json",
+      "sha256": "f3b46a3e430b7658d693f0a9168189a0951fbc2d020077e46660a0485902b1e4",
+      "size": 2306
+    },
+    {
+      "path": "shared/contracts/merge/merge-treatment-result-v1.schema.json",
+      "sha256": "9d3eaef31efcf6419252c2c8f0b42333704d1a6dc90668234424431d521b68fd",
+      "size": 2246
+    },
+    {
+      "path": "shared/contracts/platform/platform-error-v1.schema.json",
+      "sha256": "e13cdc0b9a4f5795cd81a05c085ff498b2beed5033ee3bdd5db643d7f321a914",
+      "size": 2080
+    },
+    {
+      "path": "shared/enums/priority.json",
+      "sha256": "eda5e8639d6c63e8eae3ef379cd89c33529f3c6d605a311ef720fe55c6214afd",
+      "size": 131
+    },
+    {
+      "path": "shared/enums/result-status.json",
+      "sha256": "74c5853d37f29753eaca7711b2f740aea58153701906c66eb12ec856bd2f6c2f",
+      "size": 243
+    },
+    {
+      "path": "shared/enums/treatment-type.json",
+      "sha256": "14367112b8fd31b67b478a87ecbbbafe9e4681d39379a11205449d8554b22be6",
+      "size": 599
+    },
+    {
+      "path": "src/__init__.py",
+      "sha256": "6cf5934b2cc31074ee3e2a1c52a6bda6883d27d590a8707d752a4ee72c9715fc",
+      "size": 57
+    },
+    {
+      "path": "src/merge_engine.py",
+      "sha256": "ed54babd22e18b9cb266a77d3e8c5b17a39954316349e33d36f9a6ec2ba16503",
+      "size": 10485
+    },
+    {
+      "path": "tests/fixtures/M001-confirmed-merge.json",
+      "sha256": "063833b9023e91da9421be051055734549a62287ead33627d5c404ba58d58b47",
+      "size": 75
+    },
+    {
+      "path": "tests/fixtures/M002-keep-both.json",
+      "sha256": "47f0787f8f5683786fc48087589856291aacc0dceea1ecfc94baac5e73698533",
+      "size": 64
+    },
+    {
+      "path": "tests/fixtures/M003-role-separation.json",
+      "sha256": "1e3a1c85be33292dc87a96bb6a1c82fb3971a23764c91ea7abee502ab507c2de",
+      "size": 85
+    },
+    {
+      "path": "tests/fixtures/M004-old-new.json",
+      "sha256": "5cdd7b4b1f3717f767a40cdc7552eda17eb1ba45a61922b38f230fb2c558cbd0",
+      "size": 67
+    },
+    {
+      "path": "tests/fixtures/M005-low-evidence.json",
+      "sha256": "b523c03704a3d775b7c74609671d0bd5567838aaccf760468755695f46615a00",
+      "size": 79
+    },
+    {
+      "path": "tests/fixtures/M006-revenue.json",
+      "sha256": "bc4a09d8885fa78e56ed43abe9e77ef37ffd9f66e2b30de1eb3724fac72f18b9",
+      "size": 75
+    },
+    {
+      "path": "tests/fixtures/M007-experience-preservation.json",
+      "sha256": "fbd19a75140c860250ffe5e449435918e541da60fdeb220f83c68af9511f65da",
+      "size": 90
+    },
+    {
+      "path": "tests/fixtures/M008-backlink-redirect.json",
+      "sha256": "042d776a53556c709d276d711d200bd42645c8f4e597145e46d651e6714801df",
+      "size": 80
+    },
+    {
+      "path": "tests/fixtures/M009-creator-referral.json",
+      "sha256": "6ba9bc9a5bbb4b9f46b946bdfac9a7efd1976cd712742485301bb5b76f2c4808",
+      "size": 78
+    },
+    {
+      "path": "tests/fixtures/M010-merge-writing.json",
+      "sha256": "0d0b1cb0836fff26c90c3b89b2991713647b0676e785e7b08b3074c20465f0e4",
+      "size": 97
+    },
+    {
+      "path": "tests/fixtures/M010-writer-referral.json",
+      "sha256": "86aff6af56088c1c99bf8fad8b8980c0c5fcd6f54e9eef1ed657784487980376",
+      "size": 76
+    },
+    {
+      "path": "tests/fixtures/M011-rollback.json",
+      "sha256": "56398349f5cd4dff6dcea960c543faa72e6871c82325c2f719d50a9df556ab4e",
+      "size": 71
+    },
+    {
+      "path": "tests/fixtures/M012-id-integrity.json",
+      "sha256": "5b5555a4663653f84d22def45b71b33c4c68bb6b15a222a2436b8916e07206e5",
+      "size": 70
+    },
+    {
+      "path": "tests/fixtures/M013-merged-article.json",
+      "sha256": "31111f1371ee84e2023e449ab6405b60d2575ccac328fb40742a408ffe3ace50",
+      "size": 92
+    },
+    {
+      "path": "tests/test_merge_engine.py",
+      "sha256": "f10ef1ba45c0f37476ad8c2bf7fc198be43af7f36cbdfa39c14799aefc44c0c6",
+      "size": 4775
+    },
+    {
+      "path": "validation/MERGE_VALIDATION.md",
+      "sha256": "47081201f989db902bee7660eb2b04fc2b818fd38eca1d80896809b39acb7474",
+      "size": 601
+    },
+    {
+      "path": "validation/RC3_PUBLICATION_QUALITY_ACCEPTANCE.md",
+      "sha256": "f5fcb8dc0effa1a9406c0e4fbd05d37d5a6e724f0d8c0708384df8a70fd72cae",
+      "size": 571
+    },
+    {
+      "path": "validation/SAFETY_VALIDATION.md",
+      "sha256": "ae3f48604d8744cc943f973c44dd56fa6dcc1ee3ee81093b83b3e873cefcb559",
+      "size": 134
+    }
+  ]
+}

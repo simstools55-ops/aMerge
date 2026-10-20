@@ -1,0 +1,1 @@
+chore(amerge): prepare v2.0.0 audited Claude deployment and seven-file context

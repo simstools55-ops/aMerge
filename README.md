@@ -1,6 +1,6 @@
 # aMerge
 
-Version: 1.1.2  
+Version: 2.0.0  
 Shared: 3.3.0
 
 SIMS Editorial Platformの統合処置担当製品です。複数記事の競合を評価し、Primary Article選定、Preservation Map、Query Mapping、統合構成、**統合後完成原稿の執筆**まで行います。
