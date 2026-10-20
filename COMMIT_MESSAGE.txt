@@ -1,1 +1,1 @@
-chore(amerge): prepare v2.0.0 audited Claude deployment and seven-file context
+fix(amerge): align v2.0.2 Claude context and restore RC2 validation gate

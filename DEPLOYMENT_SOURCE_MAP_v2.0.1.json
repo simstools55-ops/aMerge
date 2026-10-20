@@ -1,0 +1,13 @@
+{
+  "version": "2.0.1",
+  "instruction_origin": "user-provided aMerge v1.1.2 project instructions, only Package version changed",
+  "context_files": [
+    "02_コンテキスト/01_MERGE_RUNTIME.md",
+    "02_コンテキスト/02_MERGE_CONTRACTS.md",
+    "02_コンテキスト/03_MERGE_KNOWLEDGE.md",
+    "02_コンテキスト/04_MERGE_SHARED.md",
+    "02_コンテキスト/05_MERGE_WORKFLOW.md",
+    "02_コンテキスト/06_MERGE_VALIDATION.md",
+    "02_コンテキスト/07_MERGE_REFERENCE.md"
+  ]
+}
